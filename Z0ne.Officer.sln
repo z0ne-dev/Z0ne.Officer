@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{0AFE9C66-182B-4844-AE62-EB0EF7219662}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		Directory.Build.props = Directory.Build.props
+		icon.png = icon.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{404F7BC9-642D-43E4-80CB-10AB28F1013B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87C97403-E165-4A68-AC8F-FCEDF0B3B4AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z0ne.Officer", "src\Z0ne.Officer\Z0ne.Officer.csproj", "{1066C20D-85B5-422D-9AE9-172022C27B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1066C20D-85B5-422D-9AE9-172022C27B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1066C20D-85B5-422D-9AE9-172022C27B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1066C20D-85B5-422D-9AE9-172022C27B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1066C20D-85B5-422D-9AE9-172022C27B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1066C20D-85B5-422D-9AE9-172022C27B90} = {404F7BC9-642D-43E4-80CB-10AB28F1013B}
+	EndGlobalSection
+EndGlobal
